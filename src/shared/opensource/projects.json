@@ -1,0 +1,240 @@
+{
+  "data": [
+    {
+      "id": "1188037083",
+      "name": "Email-SMS-Spam-Classifier",
+      "createdAt": "2026-03-21T14:32:49Z",
+      "url": "https://github.com/Manaswi9123/Email-SMS-Spam-Classifier",
+      "description": "An end-to-end Email/SMS Spam Classifier utilizing NLP (TF-IDF, Stemming) and Machine Learning, deployed as a live Streamlit web app.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "1188029684",
+      "name": "Movie-Recommendation-System",
+      "createdAt": "2026-03-21T14:21:40Z",
+      "url": "https://github.com/Manaswi9123/Movie-Recommendation-System",
+      "description": "An end-to-end Movie Recommender System built with Cosine Similarity modeling and deployed with a clean Streamlit interface.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "1188667983",
+      "name": "Car-Price-Predictor",
+      "createdAt": "2026-03-22T12:21:14Z",
+      "url": "https://github.com/Manaswi9123/Car-Price-Predictor",
+      "description": "A comprehensive Car Price Prediction system built using a Linear Regression pipeline, deployed with Flask and Bootstrap.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "1189440269",
+      "name": "Banglore-House-Price-Predictor",
+      "createdAt": "2026-03-23T10:21:10Z",
+      "url": "https://github.com/Manaswi9123/Banglore-House-Price-Predictor",
+      "description": "A Bengaluru House Price Prediction system featuring data cleaning, outlier removal, and a Ridge Regression pipeline, deployed with Flask and Bootstrap.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "1193587417",
+      "name": "Olympic-Analysis",
+      "createdAt": "2026-03-27T11:36:33Z",
+      "url": "https://github.com/Manaswi9123/Olympic-Analysis",
+      "description": "An interactive Olympic History Analysis dashboard built with Streamlit and Plotly to visualize 120 years of athlete data.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "1205590761",
+      "name": "Customer-Churn-Prediction",
+      "createdAt": "2026-04-09T05:20:16Z",
+      "url": "https://github.com/Manaswi9123/Customer-Churn-Prediction",
+      "description": "A machine learning pipeline to predict customer churn using telecom customer datasets, feature engineering, and classification models.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "1218836908",
+      "name": "Bert",
+      "createdAt": "2026-04-23T09:05:18Z",
+      "url": "https://github.com/Manaswi9123/Bert",
+      "description": "An advanced NLP implementation utilizing Google's BERT model and TensorFlow Hub to generate contextual word and sentence embeddings.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "1204701579",
+      "name": "Activation-Function",
+      "createdAt": "2026-04-08T08:48:41Z",
+      "url": "https://github.com/Manaswi9123/Activation-Function",
+      "description": "A mathematical implementation of core Neural Network Activation Functions (Sigmoid, Tanh, ReLU, Leaky ReLU) from scratch.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "1186850580",
+      "name": "Decision-Tree",
+      "createdAt": "2026-03-20T03:51:12Z",
+      "url": "https://github.com/Manaswi9123/Decision-Tree",
+      "description": "A practical guide and custom implementation of Decision Tree Classification (Information Gain, Gini Impurity).",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "1210135735",
+      "name": "Data-augmentation",
+      "createdAt": "2026-04-14T05:53:32Z",
+      "url": "https://github.com/Manaswi9123/Data-augumentation",
+      "description": "A Jupyter Notebook mapping out various data augmentation techniques for training convolutional neural networks.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "1206642943",
+      "name": "Dropout-Regularization",
+      "createdAt": "2026-04-09T18:02:16Z",
+      "url": "https://github.com/Manaswi9123/Dropout-Regularization",
+      "description": "A practical guide to implementing Dropout Regularization in Keras, comparing overfitted and generalized deep learning models.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "1188023754",
+      "name": "Principal-Component-Analysis",
+      "createdAt": "2026-03-21T14:12:46Z",
+      "url": "https://github.com/Manaswi9123/Principal-Component-Analysis",
+      "description": "A deep dive into Dimensionality Reduction using PCA on the 64-dimensional Digits dataset to balance model speed and accuracy.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "1204709873",
+      "name": "Loss-or-Cost-Function",
+      "createdAt": "2026-04-08T08:55:37Z",
+      "url": "https://github.com/Manaswi9123/Loss-or-Cost-Function",
+      "description": "Python notebook exploring neural network loss functions (Mean Absolute Error, Mean Squared Error, Log Loss/Binary Cross Entropy).",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
+      "id": "1204704956",
+      "name": "Matrix-Basics",
+      "createdAt": "2026-04-08T08:52:29Z",
+      "url": "https://github.com/Manaswi9123/Matrix-Basics",
+      "description": "A foundational project covering basic matrix operations (addition, dot product) in NumPy for deep learning math.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    }
+  ]
+}
