@@ -2,10 +2,10 @@
   "data": [
     {
       "id": "1188037083",
-      "name": "Email-SMS-Spam-Classifier",
+      "name": "InboundCheck",
       "createdAt": "2026-03-21T14:32:49Z",
-      "url": "https://github.com/Manaswi9123/Email-SMS-Spam-Classifier",
-      "description": "An end-to-end Email/SMS Spam Classifier utilizing NLP (TF-IDF, Stemming) and Machine Learning, deployed as a live Streamlit web app.",
+      "url": "https://github.com/Manaswi9123/InboundCheck",
+      "description": "An end-to-end Email/SMS Spam Classifier utilizing NLP and Machine Learning. The project features a comprehensive data cleaning pipeline (TF-IDF, Stemming) and a **Streamlit** web app for real-time message classification. Optimized for high precision to ensure legitimate messages are correctly identified.",
       "isFork": false,
       "languages": [
         {
@@ -20,10 +20,10 @@
     },
     {
       "id": "1188029684",
-      "name": "Movie-Recommendation-System",
+      "name": "WatchNext",
       "createdAt": "2026-03-21T14:21:40Z",
-      "url": "https://github.com/Manaswi9123/Movie-Recommendation-System",
-      "description": "An end-to-end Movie Recommender System built with Cosine Similarity modeling and deployed with a clean Streamlit interface.",
+      "url": "https://github.com/Manaswi9123/WatchNext",
+      "description": "An end-to-end Movie Recommender System built with Python and Streamlit. This project covers the entire ML lifecycle: from data cleaning and Cosine Similarity modeling in Jupyter notebook to deploying a functional web interface.",
       "isFork": false,
       "languages": [
         {
@@ -38,10 +38,10 @@
     },
     {
       "id": "1188667983",
-      "name": "Car-Price-Predictor",
+      "name": "AutoValuer",
       "createdAt": "2026-03-22T12:21:14Z",
-      "url": "https://github.com/Manaswi9123/Car-Price-Predictor",
-      "description": "A comprehensive Car Price Prediction system built using a Linear Regression pipeline, deployed with Flask and Bootstrap.",
+      "url": "https://github.com/Manaswi9123/AutoValuer",
+      "description": "A comprehensive Car Price Prediction system built using a Linear Regression pipeline. This project features a deep dive into data cleaning (Quikr dataset) and a full-stack deployment using Flask. It utilizes AJAX for asynchronous predictions and Bootstrap for a modern, responsive user interface.",
       "isFork": false,
       "languages": [
         {
@@ -56,10 +56,10 @@
     },
     {
       "id": "1189440269",
-      "name": "Banglore-House-Price-Predictor",
+      "name": "NammaValue",
       "createdAt": "2026-03-23T10:21:10Z",
-      "url": "https://github.com/Manaswi9123/Banglore-House-Price-Predictor",
-      "description": "A Bengaluru House Price Prediction system featuring data cleaning, outlier removal, and a Ridge Regression pipeline, deployed with Flask and Bootstrap.",
+      "url": "https://github.com/Manaswi9123/NammaValue",
+      "description": "A Bengaluru House Price Prediction system. This project features rigorous data cleaning of the Bengaluru House Data, outlier removal, and a Ridge Regression pipeline. Deployed using Flask and Bootstrap, the app uses AJAX for a smooth, no-reload user experience in estimating real estate values.",
       "isFork": false,
       "languages": [
         {
@@ -74,10 +74,10 @@
     },
     {
       "id": "1193587417",
-      "name": "Olympic-Analysis",
+      "name": "GamesAnalyzer",
       "createdAt": "2026-03-27T11:36:33Z",
-      "url": "https://github.com/Manaswi9123/Olympic-Analysis",
-      "description": "An interactive Olympic History Analysis dashboard built with Streamlit and Plotly to visualize 120 years of athlete data.",
+      "url": "https://github.com/Manaswi9123/GamesAnalyzer",
+      "description": "An interactive **Olympic History Analysis** dashboard built with Streamlit and Plotly. This project cleans and visualizes 120 years of athlete data, offering insights into medal tallies, country-specific performance, and athlete demographics (Age, Height, Weight) through dynamic heatmaps and distribution plots.",
       "isFork": false,
       "languages": [
         {
@@ -92,9 +92,9 @@
     },
     {
       "id": "1205590761",
-      "name": "Customer-Churn-Prediction",
+      "name": "RetentionPredict",
       "createdAt": "2026-04-09T05:20:16Z",
-      "url": "https://github.com/Manaswi9123/Customer-Churn-Prediction",
+      "url": "https://github.com/Manaswi9123/RetentionPredict",
       "description": "A machine learning pipeline to predict customer churn using telecom customer datasets, feature engineering, and classification models.",
       "isFork": false,
       "languages": [
@@ -113,7 +113,7 @@
       "name": "Bert",
       "createdAt": "2026-04-23T09:05:18Z",
       "url": "https://github.com/Manaswi9123/Bert",
-      "description": "An advanced NLP implementation utilizing Google's BERT model and TensorFlow Hub to generate contextual word and sentence embeddings.",
+      "description": "An advanced NLP implementation using **Google's BERT model**. This project utilizes **TensorFlow Hub** to generate contextual word and sentence embeddings. It explores the transformer architecture, BERT-specific preprocessing (masking and tokenization), and demonstrates how bidirectional context leads to superior sentence similarity and text unders",
       "isFork": false,
       "languages": [
         {
@@ -131,7 +131,7 @@
       "name": "Activation-Function",
       "createdAt": "2026-04-08T08:48:41Z",
       "url": "https://github.com/Manaswi9123/Activation-Function",
-      "description": "A mathematical implementation of core Neural Network Activation Functions (Sigmoid, Tanh, ReLU, Leaky ReLU) from scratch.",
+      "description": "A mathematical implementation of core **Neural Network Activation Functions**. This project covers the Python implementation of Sigmoid, Tanh, ReLU, and Leaky ReLU, explaining their mathematical properties and their specific roles in creating non-linear deep learning models.",
       "isFork": false,
       "languages": [
         {
@@ -149,7 +149,7 @@
       "name": "Decision-Tree",
       "createdAt": "2026-03-20T03:51:12Z",
       "url": "https://github.com/Manaswi9123/Decision-Tree",
-      "description": "A practical guide and custom implementation of Decision Tree Classification (Information Gain, Gini Impurity).",
+      "description": "A practical guide to Decision Tree Classification. This project covers the logic of recursive data splitting, Gini impurity, and Information Gain. It features a complete workflow from model training to tree visualization, demonstrating how AI can make human-readable decisions.",
       "isFork": false,
       "languages": [
         {
@@ -164,7 +164,7 @@
     },
     {
       "id": "1210135735",
-      "name": "Data-augmentation",
+      "name": "Data-augumentation",
       "createdAt": "2026-04-14T05:53:32Z",
       "url": "https://github.com/Manaswi9123/Data-augumentation",
       "description": "A Jupyter Notebook mapping out various data augmentation techniques for training convolutional neural networks.",
@@ -181,7 +181,7 @@
       "name": "Dropout-Regularization",
       "createdAt": "2026-04-09T18:02:16Z",
       "url": "https://github.com/Manaswi9123/Dropout-Regularization",
-      "description": "A practical guide to implementing Dropout Regularization in Keras, comparing overfitted and generalized deep learning models.",
+      "description": "A practical guide to implementing **Dropout Regularization** in Keras. This project illustrates the transition from an overfitted deep learning model to a generalized one by strategically deactivating neurons during training. Includes comparative analysis, data scaling, and performance metrics on a binary classification dataset.",
       "isFork": false,
       "languages": [
         {
@@ -195,7 +195,7 @@
       "name": "Principal-Component-Analysis",
       "createdAt": "2026-03-21T14:12:46Z",
       "url": "https://github.com/Manaswi9123/Principal-Component-Analysis",
-      "description": "A deep dive into Dimensionality Reduction using PCA on the 64-dimensional Digits dataset to balance model speed and accuracy.",
+      "description": "A deep dive into Dimensionality Reduction using PCA. This project demonstrates how to transform the 64-dimensional Digits dataset into a compact set of Principal Components. It covers variance analysis, data scaling, and performance benchmarking, showing how to balance model speed and accuracy through feature compression.",
       "isFork": false,
       "languages": [
         {
@@ -209,11 +209,11 @@
       ]
     },
     {
-      "id": "1204709873",
+      "id": "1204707747",
       "name": "Loss-or-Cost-Function",
       "createdAt": "2026-04-08T08:55:37Z",
       "url": "https://github.com/Manaswi9123/Loss-or-Cost-Function",
-      "description": "Python notebook exploring neural network loss functions (Mean Absolute Error, Mean Squared Error, Log Loss/Binary Cross Entropy).",
+      "description": "A programmatic guide to **Loss and Cost Functions**. This project features custom Python implementations of MAE, MSE, and Log Loss using NumPy. It explores the mathematical differences between error metrics and explains how these functions drive the learning process in supervised machine learning models.",
       "isFork": false,
       "languages": [
         {
@@ -227,7 +227,7 @@
       "name": "Matrix-Basics",
       "createdAt": "2026-04-08T08:52:29Z",
       "url": "https://github.com/Manaswi9123/Matrix-Basics",
-      "description": "A foundational project covering basic matrix operations (addition, dot product) in NumPy for deep learning math.",
+      "description": "A foundational project covering **Matrix Operations** in Python. Using NumPy, this notebook explores matrix addition, subtraction, and the **Dot Product** through real-world business examples like revenue and profit calculation. Essential for understanding the underlying math of Neural Networks.",
       "isFork": false,
       "languages": [
         {

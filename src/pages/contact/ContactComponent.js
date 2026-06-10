@@ -17,8 +17,8 @@ class Contact extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div className="contact-main">
-        <Header theme={theme} />
+      <div className="contact-main" id="contact">
+        {!this.props.isSection && <Header theme={theme} />}
         <div className="basic-contact">
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
@@ -100,8 +100,8 @@ class Contact extends Component {
             </div>
           </Fade>
         </div>
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-        <TopButton theme={this.props.theme} />
+        {!this.props.isSection && <Footer theme={this.props.theme} onToggle={this.props.onToggle} />}
+        {!this.props.isSection && <TopButton theme={this.props.theme} />}
       </div>
     );
   }

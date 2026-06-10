@@ -3,18 +3,48 @@ import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
-import AiDeepLearningImg from "./AiDeepLearningImg";
-import FullStackImg from "./FullStackImg";
-import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
   if (props.fileName === "AiDeepLearningImg")
-    return <AiDeepLearningImg theme={props.theme} />;
+    return (
+      <img
+        alt="Artificial Intelligence & Deep Learning"
+        src={require("../../assets/images/home/aidl.jpg")}
+        style={{
+          width: "100%",
+          borderRadius: "15px",
+          boxShadow: "rgba(0, 0, 0, 0.15) 0px 10px 30px -5px",
+          imageRendering: "-webkit-optimize-contrast",
+        }}
+      />
+    );
   else if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
+    return (
+      <img
+        alt="Natural Language Processing & AI Web Apps"
+        src={require("../../assets/images/home/nlpwebai.jpg")}
+        style={{
+          width: "100%",
+          borderRadius: "15px",
+          boxShadow: "rgba(0, 0, 0, 0.15) 0px 10px 30px -5px",
+          imageRendering: "-webkit-optimize-contrast",
+        }}
+      />
+    );
   else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
+    return (
+      <img
+        alt="Data Engineering & Analytics"
+        src={require("../../assets/images/home/dea.jpg")}
+        style={{
+          width: "100%",
+          borderRadius: "15px",
+          boxShadow: "rgba(0, 0, 0, 0.15) 0px 10px 30px -5px",
+          imageRendering: "-webkit-optimize-contrast",
+        }}
+      />
+    );
   return <DesignImg theme={props.theme} />;
 }
 

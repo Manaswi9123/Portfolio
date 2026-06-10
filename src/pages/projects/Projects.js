@@ -31,8 +31,8 @@ class Projects extends Component {
       : ProjectsData.data.slice(0, 6);
 
     return (
-      <div className="projects-main">
-        <Header theme={theme} />
+      <div className="projects-main" id="projects">
+        {!this.props.isSection && <Header theme={theme} />}
         <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
@@ -102,8 +102,8 @@ class Projects extends Component {
           })}
         </div> */}
 
-        <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-        <TopButton theme={this.props.theme} />
+        {!this.props.isSection && <Footer theme={this.props.theme} onToggle={this.props.onToggle} />}
+        {!this.props.isSection && <TopButton theme={this.props.theme} />}
       </div>
     );
   }

@@ -14,9 +14,15 @@ const IconWrapper = styled.span`
 `;
 
 export default function socialMedia(props) {
+  const links = socialMediaLinks.filter(
+    (media) =>
+      media.name !== "Gmail" &&
+      media.name !== "Facebook" &&
+      media.name !== "Instagram"
+  );
   return (
     <div className="social-media-div">
-      {socialMediaLinks.map((media, i) => {
+      {links.map((media, i) => {
         return (
           <a
             key={i}
