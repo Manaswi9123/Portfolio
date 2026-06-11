@@ -103,6 +103,7 @@ class ExperienceCard extends Component {
                   display: "flex",
                   justifyContent: "flex-start",
                   marginTop: 20,
+                  color: theme.secondaryText,
                 }}
               >
                 <div className="repo-description" />

@@ -18,16 +18,22 @@ class ExperienceAccordion extends Component {
                 overrides={{
                   Header: {
                     style: () => ({
-                      backgroundColor: `${theme.body}`,
-                      border: `1px solid`,
-                      borderRadius: `5px`,
-                      borderColor: `${theme.headerColor}`,
-                      marginBottom: `3px`,
+                      backgroundColor: `${theme.highlight}`,
+                      border: `2px solid ${theme.imageHighlight}`,
+                      borderRadius: `8px`,
+                      marginBottom: `10px`,
                       fontFamily: "Google Sans Regular",
+                      fontSize: `24px`,
                       color: `${theme.text}`,
+                      padding: `16px 24px`,
                       ":hover": {
                         color: `${theme.secondaryText}`,
                       },
+                    }),
+                  },
+                  ToggleIcon: {
+                    style: () => ({
+                      color: `${theme.text}`,
                     }),
                   },
                   Content: {

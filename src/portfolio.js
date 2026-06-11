@@ -128,6 +128,11 @@ const skills = {
         {
           skillName: "Deeplearning",
           imageSrc: "deeplearning_ai_logo.png",
+          style: {
+            backgroundColor: "#FFFFFF",
+            borderRadius: "5px",
+            padding: "2px",
+          },
         },
       ],
     },
@@ -152,14 +157,14 @@ const skills = {
           skillName: "Pandas",
           fontAwesomeClassname: "simple-icons:pandas",
           style: {
-            color: "#150458",
+            color: "#FFFFFF",
           },
         },
         {
           skillName: "Numpy",
           fontAwesomeClassname: "simple-icons:numpy",
           style: {
-            color: "#013243",
+            color: "#FFFFFF",
           },
         },
         {
@@ -232,7 +237,7 @@ const skills = {
           skillName: "Git/GitHub",
           fontAwesomeClassname: "simple-icons:github",
           style: {
-            color: "#181717",
+            color: "#FFFFFF",
           },
         },
         // {
@@ -617,7 +622,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Dharani Homes , Flat no 102 , ECC 127",
+    subtitle: "Hyderabad",
     locality: "East chandragiri colony",
     country: "India",
     region: "Hyderabad",
