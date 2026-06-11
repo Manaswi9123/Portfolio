@@ -16,6 +16,7 @@ class DegreeCard extends Component {
                   maxWidth: "100%",
                   maxHeight: "100%",
                   transform: "scale(0.9)",
+                  borderRadius: "50%",
                 }}
                 src={require(`../../assets/images/${degree.logo_path}`)}
                 alt={degree.alt_name}
@@ -47,29 +48,19 @@ class DegreeCard extends Component {
               </div>
             </div>
             <div className="body-content">
-              {degree.descriptions.map((sentence) => {
-                return (
-                  <p className="content-list" style={{ color: theme.text }}>
-                    {sentence}
-                  </p>
-                );
-              })}
-              {degree.website_link && (
-                <a
-                  href={degree.website_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div
-                    className="visit-btn"
-                    style={{ backgroundColor: theme.headerColor }}
-                  >
-                    <p className="btn" style={{ color: theme.text }}>
-                      Visit Website
-                    </p>
-                  </div>
-                </a>
-              )}
+              <ul style={{ listStyleType: "disc", paddingLeft: "20px", margin: "0" }}>
+                {degree.descriptions.map((sentence, i) => {
+                  return (
+                    <li
+                      key={i}
+                      className="content-list"
+                      style={{ color: theme.text, marginBottom: "8px" }}
+                    >
+                      {sentence.replace(/^⚡\s*/, "")}
+                    </li>
+                  );
+                })}
+              </ul>
             </div>
           </div>
         </Fade>

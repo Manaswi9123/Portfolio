@@ -10,12 +10,11 @@ function GetSkillSvg(props) {
     return (
       <img
         alt="Artificial Intelligence & Deep Learning"
-        src={require("../../assets/images/home/aidl.jpg")}
+        src={require("../../assets/images/home/aidl.png")}
         style={{
           width: "100%",
           borderRadius: "15px",
           boxShadow: "rgba(0, 0, 0, 0.15) 0px 10px 30px -5px",
-          imageRendering: "-webkit-optimize-contrast",
         }}
       />
     );
@@ -23,12 +22,11 @@ function GetSkillSvg(props) {
     return (
       <img
         alt="Natural Language Processing & AI Web Apps"
-        src={require("../../assets/images/home/nlpwebai.jpg")}
+        src={require("../../assets/images/home/nlpwebai.png")}
         style={{
           width: "100%",
           borderRadius: "15px",
           boxShadow: "rgba(0, 0, 0, 0.15) 0px 10px 30px -5px",
-          imageRendering: "-webkit-optimize-contrast",
         }}
       />
     );
@@ -36,12 +34,11 @@ function GetSkillSvg(props) {
     return (
       <img
         alt="Data Engineering & Analytics"
-        src={require("../../assets/images/home/dea.jpg")}
+        src={require("../../assets/images/home/dea.png")}
         style={{
           width: "100%",
           borderRadius: "15px",
           boxShadow: "rgba(0, 0, 0, 0.15) 0px 10px 30px -5px",
-          imageRendering: "-webkit-optimize-contrast",
         }}
       />
     );
@@ -76,19 +73,19 @@ class SkillSection extends Component {
                   <SoftwareSkill logos={skill.softwareSkills} />
                 </Fade>
                 <Fade right duration={2000}>
-                  <div>
+                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", margin: "0" }}>
                     {skill.skills.map((skillSentence, i) => {
                       return (
-                        <p
+                        <li
                           key={i}
                           className="subTitle skills-text"
-                          style={{ color: theme.secondaryText }}
+                          style={{ color: theme.secondaryText, marginBottom: "10px" }}
                         >
-                          {skillSentence}
-                        </p>
+                          {skillSentence.replace(/^⚡\s*/, "")}
+                        </li>
                       );
                     })}
-                  </div>
+                  </ul>
                 </Fade>
               </div>
             </div>
