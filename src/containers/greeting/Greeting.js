@@ -49,8 +49,6 @@ export default function Greeting(props) {
               src={require("../../assets/images/home/greeting_aiml.png")}
               style={{
                 width: "100%",
-                borderRadius: "20px",
-                boxShadow: "rgba(0, 0, 0, 0.3) 0px 15px 35px",
                 imageRendering: "-webkit-optimize-contrast"
               }}
             />
