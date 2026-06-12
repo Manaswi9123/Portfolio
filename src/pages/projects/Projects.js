@@ -3,7 +3,6 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import PublicationCard from "../../components/publicationsCard/PublicationCard";
-import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import {
@@ -16,18 +15,9 @@ import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 
 class Projects extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      showAll: false,
-    };
-  }
-
   render() {
     const theme = this.props.theme;
-    const projectsToShow = this.state.showAll
-      ? ProjectsData.data
-      : ProjectsData.data.slice(0, 6);
+    const projectsToShow = ProjectsData.data.slice(0, 6);
 
     return (
       <div className="projects-main" id="projects">
@@ -69,12 +59,6 @@ class Projects extends Component {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
         </div>
-        <Button
-          text={this.state.showAll ? "Show Less" : "More Projects"}
-          className="project-button"
-          theme={theme}
-          onClick={() => this.setState({ showAll: !this.state.showAll })}
-        />
 
         {/* Publications  */}
         {/* {publications.data.length > 0 ? (
