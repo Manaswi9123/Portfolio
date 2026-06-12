@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "M.V.N.S Manaswi Portfolio",
     type: "website",
-    url: "http://manaswimulukutla.com/",
+    url: "https://manaswimulukutla.vercel.app/",
   },
 };
 
