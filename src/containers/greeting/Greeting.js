@@ -4,7 +4,6 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import HelloImage from "./HelloImage";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -45,11 +44,16 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            {/* <img
-							alt="saad sitting on table"
-							src={require("../../assets/images/feelingProud.svg")}
-						></img> */}
-            <HelloImage theme={theme} />
+            <img
+              alt="M.V.N.S Manaswi - AI/ML Specialist"
+              src={require("../../assets/images/home/greeting_aiml.png")}
+              style={{
+                width: "100%",
+                borderRadius: "20px",
+                boxShadow: "rgba(0, 0, 0, 0.3) 0px 15px 35px",
+                imageRendering: "-webkit-optimize-contrast"
+              }}
+            />
           </div>
         </div>
       </div>

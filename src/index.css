@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @font-face {
   font-family: "Agustina Regular";
@@ -53,7 +53,7 @@ body {
 }
 body {
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  font: 19px / 23px Poppins, "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -65,3 +65,36 @@ body {
     line-height: normal;
   }
 }
+
+/* Poppins Global Overrides - Exclude FontAwesome elements to prevent broken icons */
+*:not(i):not(.fa):not(.fab):not(.fas):not(.far):not([class*="fa-"]),
+body,
+h1, h2, h3, h4, h5, h6,
+p, li, button, input, textarea, select {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Redefine baseui or other third-party font components */
+.subTitle,
+.title,
+.heading,
+.card-title,
+.card-subtitle,
+.repo-name,
+.repo-description,
+.menu a,
+.footer-text,
+.experience-card,
+.degree-title,
+.degree-subtitle,
+.certification-card,
+.raw_logo text {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Retain Cursive Styling for Header Logo Name */
+.header .logo-name,
+.header .logo-name span {
+  font-family: "Dancing Script", cursive !important;
+}
+

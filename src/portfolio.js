@@ -7,7 +7,7 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Manaswi's Portfolio",
+  title: "Manaswi AIML",
   description:
     "Computer Science Engineering graduate specializing in AI/ML, with hands-on experience developing predictive models, deep learning architectures, and real-time optimization systems.",
   og: {
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "M.V.N.S Manaswi",
   // nickname: "layman_brother",
   subTitle:
-    "A passionate individual specializing in AI/ML, with hands-on experience developing predictive models, deep learning architectures, and real-time optimization systems.",
+    "Passionate AI/ML specialist with hands-on experience engineering predictive models, deep learning architectures, and real-time optimization systems.",
   resumeLink:
     "https://1drv.ms/b/c/b510a3e471b257dd/IQB_KE-VEJLgSbEDneMX6TL0AQ1Xe3ngQhScrjQT2UqhpkU?e=CLCRCB",
   // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",

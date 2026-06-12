@@ -14,7 +14,6 @@ import {
 } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
-import ProjectsImg from "./ProjectsImg";
 
 class Projects extends Component {
   constructor(props) {
@@ -37,11 +36,16 @@ class Projects extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${projectsHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <ProjectsImg theme={theme} />
+                <img
+                  alt="Manaswi's Open Source Projects"
+                  src={require("../../assets/images/home/projects_female.png")}
+                  style={{
+                    width: "100%",
+                    borderRadius: "20px",
+                    boxShadow: "rgba(0, 0, 0, 0.3) 0px 15px 35px",
+                    imageRendering: "-webkit-optimize-contrast"
+                  }}
+                />
               </div>
               <div className="projects-heading-text-div">
                 <h1

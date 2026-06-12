@@ -17,17 +17,27 @@ const onMouseOut = (event) => {
 class Header extends Component {
   render() {
     const theme = this.props.theme;
+    const logoName = greeting.logo_name || "";
+    const spaceIndex = logoName.indexOf(" ");
+    let firstPart = logoName;
+    let lastPart = "";
+    if (spaceIndex !== -1) {
+      firstPart = logoName.substring(0, spaceIndex);
+      lastPart = logoName.substring(spaceIndex);
+    }
+
     return (
       <Fade top duration={1000} distance="20px">
         <SeoHeader />
         <div>
           <header className="header">
             <a href="#greeting" className="logo">
-              <span style={{ color: theme.imageHighlight }}> &lt;</span>
-              <span className="logo-name" style={{ color: theme.text }}>
-                {greeting.logo_name}
+              <span style={{ color: theme.secondaryText }}> &lt;</span>
+              <span className="logo-name">
+                <span style={{ color: theme.text }}>{firstPart}</span>
+                <span style={{ color: theme.imageHighlight }}>{lastPart}</span>
               </span>
-              <span style={{ color: theme.imageHighlight }}>/&gt;</span>
+              <span style={{ color: theme.secondaryText }}>/&gt;</span>
             </a>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">
